@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="/submit" method="post"> <!-- Acción y método del formulario -->
+        <label for="nombre">Nombre:</label> <!-- Etiqueta para el campo de nombre -->
+        <input type="text" id="nombre" name="nombre" required> <!-- Campo de texto para el nombre -->
+        <br><br>
+        <label for="email">Correo Electrónico:</label> <!-- Etiqueta para el campo de correo -->
+        <input type="email" id="email" name="email" required> <!-- Campo de correo electrónico -->
+        <br><br>
+        <label for="mensaje">Mensaje:</label> <!-- Etiqueta para el área de texto -->
+        <textarea id="mensaje" name="mensaje" rows="4" cols="30" required></textarea> <!-- Área de texto para el mensaje -->
+        <br><br>
+        <input type="submit" value="Enviar">   <!-- Botón de envío del formulario -->
+    </form>
+</body>
+</html>
