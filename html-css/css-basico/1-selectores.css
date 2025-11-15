@@ -1,0 +1,44 @@
+/* Ejemplos de selectores CSS */
+/* Piramide de especificidad de selectores */
+/* 1. Selector de tipo */
+/* 2. Selector de ID */
+/* 3. Selector de clase */
+/* 4. Selector de descendiente */
+/* 5. Selector de pseudo-clase */
+/* 6. Selector de atributo */
+/* 7. Selector de hijo */
+/* 8. Selector de hermano adyacente */
+/* 9. Selector de hermano general */
+/* 10. Selector universal */
+
+
+h1 { /* Selector de tipo */
+    color: blue;
+}
+#titulo { /* Selector de ID */
+    color: red;
+}
+.parrafo { /* Selector de clase */
+    color: green;
+}
+div p { /* Selector de descendiente */
+    color: orange;
+}
+a:hover { /* Selector de pseudo-clase */
+    color: purple;
+}
+input[type="text"] { /* Selector de atributo */
+    color: brown;
+}
+ul > li { /* Selector de hijo */
+    color: teal;
+}
+section + section { /* Selector de hermano adyacente */
+    color: magenta;
+}
+nav ~ footer { /* Selector de hermano general */
+    color: olive;
+}
+* { /* Selector universal */
+    color: black;
+}
